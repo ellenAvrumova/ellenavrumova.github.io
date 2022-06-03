@@ -10,6 +10,10 @@
 }
 
 h2 {
+  margin-top: -20px;
+  align-items: right;
+  justify-content: right;
+  
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -19,3 +23,5 @@ p1 {
   font-size: 25px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+
