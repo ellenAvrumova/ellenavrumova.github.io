@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import './App.css';
 import { SocialIcon } from 'react-social-icons'
 import Container from 'react-bootstrap/Container';
