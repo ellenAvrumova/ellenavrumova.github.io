@@ -10,22 +10,21 @@
 }
 
 h2 {
-  padding-left: 15px;
-  font-weight: 700;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 40px;
+  font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
-p {
+#hello p:nth-of-type(1) {
   margin-top: 10px;
   padding-left: 15px;
   font-size: 20px;
   font-weight: 600;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Roboto Mono', monospace;
   
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid black; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  letter-spacing: .15em; /* Adjust as needed */
+  overflow: hidden;
+  border-right: .15em solid black;
+  white-space: nowrap;
+  letter-spacing: .15em;
   animation: 
     typing 3.5s steps(40, end),
     blink-caret .75s step-end infinite; 
@@ -36,7 +35,6 @@ p {
   to { width: 100% }
 }
 
-/* The typewriter cursor effect */
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: black; }
