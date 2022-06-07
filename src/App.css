@@ -12,6 +12,14 @@
 h2 {
   font-size: 40px;
   font-family: 'Kdam Thmor Pro', sans-serif;
+  border-right: .15em solid black;
+  
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid black; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
 }
 
 #hello p{
@@ -19,33 +27,18 @@ h2 {
   padding-left: 15px;
   font-size: 20px;
   font-weight: 600;
+  line-height: 10mm;
   font-family: 'Roboto Mono', monospace;
-
-  white-space: nowrap;
-  overflow: hidden;
-  width: 0;
-  animation: type 4s steps(60, end) forwards;
 }
 
-#hello p:nth-of-type(1) {
-  border-right: .15em solid black;
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
 }
 
-#hello p:nth-of-type(2) {
-  animation-delay: 4s;
-} 
-
-span {
-  animation: blink 1s infinite;
-}
-@keyframes type {
-  to {
-    width: 100%;
-  }
-}
-@keyframes blink {
-  to {
-    opacity: .0;
-  }
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: black; }
 }
 

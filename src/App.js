@@ -35,20 +35,23 @@ function App() {
               </Col>
               <Col md = {8}>
                 <div id ="hello">
-                  <p>Hello! I'm a freshman at Hunter College. I'm part of the</p>
-                  <p>Daedalus Honors Program and have coded since 10th grade.</p>
+                  <p>Hello! I'm a freshman at Hunter College. I'm part of the Daedalus Honors Program and have been coding since 10th grade.</p>
+                  <p><u>Currently I am: </u><br></br>Exploring career paths in technology!</p>
+                  <p><u>My Current Goal: </u><br></br>Gain experience through internships!</p>
                 </div>
                 {/* RESUME */}
               </Col>
             </Row>
           </Container>
         </div>
-
+        <br></br>
+        <br></br>
         <div className="Work">
           <Container>
             <Row>
               <Col>
-                {/* <p>Work Experience</p> */}
+                <h2>WORK EXPERIENCE</h2>
+
               </Col>
             </Row>
           </Container>
