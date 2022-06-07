@@ -14,29 +14,38 @@ h2 {
   font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
-#hello p:nth-of-type(1) {
+#hello p{
   margin-top: 10px;
   padding-left: 15px;
   font-size: 20px;
   font-weight: 600;
   font-family: 'Roboto Mono', monospace;
-  
-  overflow: hidden;
-  border-right: .15em solid black;
+
   white-space: nowrap;
-  letter-spacing: .15em;
-  animation: 
-    typing 3.5s steps(40, end),
-    blink-caret .75s step-end infinite; 
+  overflow: hidden;
+  width: 0;
+  animation: type 4s steps(60, end) forwards;
 }
 
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+#hello p:nth-of-type(1) {
+  border-right: .15em solid black;
 }
 
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: black; }
+#hello p:nth-of-type(2) {
+  animation-delay: 4s;
+} 
+
+span {
+  animation: blink 1s infinite;
+}
+@keyframes type {
+  to {
+    width: 100%;
+  }
+}
+@keyframes blink {
+  to {
+    opacity: .0;
+  }
 }
 

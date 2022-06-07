@@ -35,7 +35,8 @@ function App() {
               </Col>
               <Col md = {8}>
                 <div id ="hello">
-                  <p>Hello! I'm a freshman at Hunter College.<br />I'm part of the Daedalus Honors Program and<br />have coded since 10th grade.</p>
+                  <p>Hello! I'm a freshman at Hunter College. I'm part of the</p>
+                  <p>Daedalus Honors Program and have coded since 10th grade.</p>
                 </div>
                 {/* RESUME */}
               </Col>
