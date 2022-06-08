@@ -26,7 +26,7 @@ header {
   background: #630330;
   padding: 20px;
   text-align: center;
-  border-bottom: 1px solid #00c2cb;
+  border-bottom: 1px solid black;
 }
 header nav a {
   padding: 30px 90px;
@@ -47,7 +47,9 @@ h2 {
   font-size: 40px;
   font-family: 'Kdam Thmor Pro', sans-serif;
   border-right: .15em solid black;
-  
+  margin-top: 30px;
+  margin-left: -50px;
+
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid black; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
@@ -61,6 +63,7 @@ h2 {
   font-size: 20px;
   font-weight: 600;
   line-height: 10mm;
+  margin-left: -50px;
   font-family: 'Roboto Mono', monospace;
 }
 

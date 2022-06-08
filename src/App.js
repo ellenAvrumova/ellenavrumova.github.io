@@ -23,8 +23,8 @@ function App() {
                 <br />
                 <br />
                 <Row>
-                  <Col sm = {{ span: 4 }}>
-                    <img width="100%" src={myImage} className='img-thumbnail' alt="Me" style={{ maxWidth: '24rem', marginTop: 50, marginLeft: -10 }} />
+                  <Col sm = {{ span: 5 }}>
+                    <img width="100%" src={myImage} className='img-thumbnail' alt="Me" style={{ maxWidth: '24rem', marginTop: 80, marginLeft: -40 }} />
                   </Col>
                   <Col>
                     <br />
@@ -55,6 +55,7 @@ function App() {
           </Container>
         </div>
     </div>
+
   );
 }
 
