@@ -4,11 +4,10 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import myImage from './myImage.jpg'
-import { Resume } from './Components/Resume';
-import { Scroll } from './Components/Scroll'
 
 function App() {
   return (
+    <body>
       <div className="Page">
           <header>
             <nav>
@@ -39,23 +38,24 @@ function App() {
               </Container>
             </div>
           </section>
+
+          <br />
+          <br />
           
-        <div className="Intro">
+          <section id="work">
+            <div class="container reveal">
+            <Container>
+              <Row>
+                <Col>
+                  <h2>WORK EXPERIENCE</h2>
+                  <p>You are viewing dummy text in English. Offices parties lasting outward nothing age few resolve. Impression to discretion understood to we interested he excellence. Him remarkably use projection collecting. Going about eat forty world has round miles. Attention affection at my preferred offending shameless me if agreeable. Life lain held calm and true neat she. Much feet each so went no from. Truth began maids linen an mr to after. Did shy say mention enabled through elderly improve. As at so believe account evening behaved hearted is. House is tiled we aware. It ye greatest removing concerns an overcame appetite. Manner result square father boy behind its his. Their above spoke match ye mr right oh as first. Be my depending to believing perfectly concealed household. Point could to built no hours smile sense. On am we offices expense thought. Its hence ten smile age means. Seven chief sight far point any. Of so high into easy. Dashwoods eagerness oh extensive as discourse sportsman frankness. Husbands see disposed surprise likewise humoured yet pleasure. Fifteen no inquiry cordial so resolve garrets as. Impression was estimating surrounded solicitude indulgence son shy.</p>
+                </Col>
+              </Row>
+            </Container>
+            </div>
+          </section>
         </div>
-        <br />
-        <br />
-        <div className="Work">
-          <Container>
-            <Row>
-              <Col>
-                <h2>WORK EXPERIENCE</h2>
-
-              </Col>
-            </Row>
-          </Container>
-        </div>
-    </div>
-
+      </body>
   );
 }
 

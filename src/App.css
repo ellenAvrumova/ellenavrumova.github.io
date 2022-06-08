@@ -9,6 +9,12 @@
   color: black;
 }
 
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -35,12 +41,12 @@ header nav a {
   border-radius: 5px;
   letter-spacing: 0.5px;
 }
+
 header nav a:hover,
 header nav a.active {
   background: #E6E6FA;
   color: #42455a;
-  transition: all 0.5s ease-out;
-  letter-spacing: 2px;
+  transition: 0.5s ease-out;
 }
 
 h2 {
@@ -77,4 +83,3 @@ h2 {
   from, to { border-color: transparent }
   50% { border-color: black; }
 }
-
