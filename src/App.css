@@ -1,5 +1,5 @@
 .Page {
-  background-image: linear-gradient(225deg, #ffafbd, #ffb88c);
+  background-color: #E6E6FA;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -9,8 +9,41 @@
   color: black;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Abril Fatface', cursive;
+  scroll-behavior: smooth;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background: #630330;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #00c2cb;
+}
+header nav a {
+  padding: 30px 90px;
+  font-size: 2rem;
+  color: #e0ffff;
+  border-radius: 5px;
+  letter-spacing: 0.5px;
+}
+header nav a:hover,
+header nav a.active {
+  background: #E6E6FA;
+  color: #42455a;
+  transition: all 0.5s ease-out;
+  letter-spacing: 2px;
+}
+
 h2 {
-  
   font-size: 40px;
   font-family: 'Kdam Thmor Pro', sans-serif;
   border-right: .15em solid black;
