@@ -4,6 +4,8 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import myImage from './myImage.jpg'
+import amex from './American-Express-logo.png'
+import { Socials } from './Components/Socials.js'
 
 function App() {
   return (
@@ -38,22 +40,57 @@ function App() {
               </Container>
             </div>
           </section>
-
-          <br />
-          <br />
           
           <section id="work">
             <div class="container reveal">
-            <Container>
-              <Row>
-                <Col>
-                  <h2>WORK EXPERIENCE</h2>
-                  <p>You are viewing dummy text in English. Offices parties lasting outward nothing age few resolve. Impression to discretion understood to we interested he excellence. Him remarkably use projection collecting. Going about eat forty world has round miles. Attention affection at my preferred offending shameless me if agreeable. Life lain held calm and true neat she. Much feet each so went no from. Truth began maids linen an mr to after. Did shy say mention enabled through elderly improve. As at so believe account evening behaved hearted is. House is tiled we aware. It ye greatest removing concerns an overcame appetite. Manner result square father boy behind its his. Their above spoke match ye mr right oh as first. Be my depending to believing perfectly concealed household. Point could to built no hours smile sense. On am we offices expense thought. Its hence ten smile age means. Seven chief sight far point any. Of so high into easy. Dashwoods eagerness oh extensive as discourse sportsman frankness. Husbands see disposed surprise likewise humoured yet pleasure. Fifteen no inquiry cordial so resolve garrets as. Impression was estimating surrounded solicitude indulgence son shy.</p>
-                </Col>
-              </Row>
-            </Container>
+              <br />
+              <br />
+              <Container>
+                <Row>
+                  <Col>
+                    <div id="header">
+                      <p>WORK EXPERIENCE</p>
+                    </div>
+                    <div id="intern">
+                      <p>Software Engingeer Intern</p>
+                      <p>I used:</p>
+                      <ul>
+                        <li>Couchbase</li>
+                        <li>NoSQL</li>
+                        <li>JavaScript</li>
+                        <li>Postman</li>
+                        <li>React.js</li>
+                      </ul>
+                    </div>
+                  </Col>
+                  <Col sm = {{ span: 3 }}>
+                    <img width="100%" src={amex} className='amex' alt="amex" style={{ maxWidth: '24rem', marginLeft: -380, marginTop: 120 }} />
+                  </Col>
+                </Row>
+              </Container>
             </div>
           </section>
+          
+          <section id="contact">
+            <div class="container reveal">
+              <br />
+              <br />
+              <Container>
+                <Row>
+                  <Col sm = {{ offset: 5 }}>
+                  <div id="header">
+                    <p>CONTACTS</p>
+                  </div>
+                  </Col>
+                </Row>
+                <Row>
+                  <Col>
+                    <Socials />
+                  </Col>
+                </Row>
+              </Container>
+            </div>
+            </section>
         </div>
       </body>
   );

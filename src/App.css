@@ -19,7 +19,6 @@ section {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Abril Fatface', cursive;
   scroll-behavior: smooth;
 }
 
@@ -35,9 +34,10 @@ header {
   border-bottom: 1px solid black;
 }
 header nav a {
-  padding: 30px 90px;
+  padding: 27px 90px;
   font-size: 2rem;
   color: #e0ffff;
+  font-family: 'Abril Fatface', cursive;
   border-radius: 5px;
   letter-spacing: 0.5px;
 }
@@ -67,10 +67,28 @@ h2 {
 #hello p{
   margin-top: 10px;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: bold;
   line-height: 10mm;
   margin-left: -50px;
   font-family: 'Roboto Mono', monospace;
+}
+
+#header {
+  font-size: 40px;
+  letter-spacing: 3px;
+  margin-left: -60px;
+  font-family: 'Abril Fatface', cursive;
+}
+
+#intern p{
+  line-height: 7mm;
+  font-size: 30px;
+  font-family: 'Prompt', sans-serif;
+}
+
+#intern ul{
+  padding-left: 50px;
+  font-size: 30px;
 }
 
 @keyframes typing {
