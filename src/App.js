@@ -6,8 +6,14 @@ import Col from 'react-bootstrap/Col';
 import myImage from './myImage.jpg'
 import amex from './American-Express-logo.png'
 import { Socials } from './Components/Socials.js'
+import { Scroll } from './Components/Scroll.js'
 
 function App() {
+  <header>
+    <script>
+      <Scroll />
+    </script>
+  </header>
   return (
     <body>
       <div className="Page">
@@ -47,24 +53,31 @@ function App() {
               <br />
               <Container>
                 <Row>
-                  <Col>
+                  <Col sm = {{ offset: 4 }}>
                     <div id="header">
                       <p>WORK EXPERIENCE</p>
                     </div>
-                    <div id="intern">
-                      <p>Software Engingeer Intern</p>
-                      <p>I used:</p>
-                      <ul>
-                        <li>Couchbase</li>
-                        <li>NoSQL</li>
-                        <li>JavaScript</li>
-                        <li>Postman</li>
-                        <li>React.js</li>
-                      </ul>
+                  </Col>
+                </Row>
+                <Row>
+                  {/* Insert Col here when adding new job */}
+                  <Col>
+                    <div id="internName">
+                      <p><u>Software Engingeer Intern</u></p>
                     </div>
+                      <div id="list">
+                        <p>Used:</p>
+                        <ul>
+                          <li>Couchbase</li>
+                          <li>NoSQL</li>
+                          <li>JavaScript</li>
+                          <li>Postman</li>
+                          <li>React.js</li>
+                        </ul>
+                      </div>
                   </Col>
                   <Col sm = {{ span: 3 }}>
-                    <img width="100%" src={amex} className='amex' alt="amex" style={{ maxWidth: '24rem', marginLeft: -380, marginTop: 120 }} />
+                    <img width="100%" src={amex} className='amex' alt="amex" style={{ maxWidth: '24rem', marginLeft: -380, marginTop: 40 }} />
                   </Col>
                 </Row>
               </Container>
@@ -87,6 +100,10 @@ function App() {
                   <Col>
                     <Socials />
                   </Col>
+                </Row>
+                <Row>
+                  <p>Hey little buddy, you're a little buddy.</p>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                 </Row>
               </Container>
             </div>

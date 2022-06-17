@@ -80,15 +80,21 @@ h2 {
   font-family: 'Abril Fatface', cursive;
 }
 
-#intern p{
+#internName p{
   line-height: 7mm;
-  font-size: 30px;
-  font-family: 'Prompt', sans-serif;
+  font-size: 40px;
+  font-family: 'Bebas Neue', cursive;
 }
 
-#intern ul{
-  padding-left: 50px;
+#list p, ul{
+  padding: 0;
+  margin: 0;
   font-size: 30px;
+  font-weight: 600;
+  font-family: 'Courier New', Courier, monospace;
+}
+#list ul {
+  padding-left: 50px;
 }
 
 @keyframes typing {
