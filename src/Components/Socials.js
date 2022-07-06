@@ -10,9 +10,9 @@ export class Socials extends Component {
             <div className="Socials">
             <Container>
                 <Row>
-                    <Col><SocialIcon url="https://www.linkedin.com/in/ellen-avrumova/" label="LinkedIn" style={{ margin:15, left:100 }}/></Col>
-                    <Col><SocialIcon url="https://github.com/ellenAvrumova" label="GitHub" style={{ margin:15, left:100 }}/></Col>
-                    <Col><SocialIcon url="mailto:e.avrumova@gmail.com?" label="Gmail" style={{ margin:15, left:100 }} bgColor="#de5246"/></Col>
+                    <Col><SocialIcon url="https://www.linkedin.com/in/ellen-avrumova/" label="LinkedIn" style={{ left:120 }}/></Col>
+                    <Col><SocialIcon url="https://github.com/ellenAvrumova" label="GitHub" style={{ left:120 }}/></Col>
+                    <Col><SocialIcon url="mailto:e.avrumova@gmail.com?" label="Gmail" style={{ left:120 }} bgColor="#de5246"/></Col>
                 </Row>
             </Container>
             </div>
