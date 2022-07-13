@@ -1,5 +1,5 @@
 .Page {
-  background-color: #E6E6FA;
+  background-color: #F7C5CC;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -28,7 +28,7 @@ header {
   left: 0;
   width: 100%;
   z-index: 1000;
-  background: #630330;
+  background: #C5FAD5;
   padding: 20px;
   text-align: center;
   border-bottom: 1px solid black;
@@ -36,7 +36,7 @@ header {
 header nav a {
   padding: 27px 90px;
   font-size: 2rem;
-  color: #e0ffff;
+  color: #CC313D;
   font-family: 'Abril Fatface', cursive;
   border-radius: 5px;
   letter-spacing: 0.5px;
@@ -44,8 +44,9 @@ header nav a {
 
 header nav a:hover,
 header nav a.active {
-  background: #E6E6FA;
-  color: #42455a;
+  background: #F7C5CC;
+  color: #013DC4;
+  text-decoration: underline;
   transition: 0.5s ease-out;
 }
 
