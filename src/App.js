@@ -83,7 +83,7 @@ function App() {
                 {/* Insert Col here when adding new job */}
                 <Col>
                   <div id="internName">
-                    <p><u>Software Engingeer Intern</u></p>
+                    <p><u>Software Engineer Intern</u></p>
                   </div>
                     <div id="list">
                       <p>Used:</p>
