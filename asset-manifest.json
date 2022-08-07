@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.94a682d2.css",
-    "main.js": "/static/js/main.8e57266e.js",
+    "main.css": "/static/css/main.95d3dc45.css",
+    "main.js": "/static/js/main.eda22a40.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/myImage.jpg": "/static/media/myImage.89e5e8a1d9243aa416d1.jpg",
     "static/media/American-Express-logo.png": "/static/media/American-Express-logo.e0d8bb7d623b9902f110.png",
     "index.html": "/index.html",
-    "main.94a682d2.css.map": "/static/css/main.94a682d2.css.map",
-    "main.8e57266e.js.map": "/static/js/main.8e57266e.js.map",
+    "main.95d3dc45.css.map": "/static/css/main.95d3dc45.css.map",
+    "main.eda22a40.js.map": "/static/js/main.eda22a40.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.94a682d2.css",
-    "static/js/main.8e57266e.js"
+    "static/css/main.95d3dc45.css",
+    "static/js/main.eda22a40.js"
   ]
 }
