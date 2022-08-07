@@ -33,15 +33,14 @@ header {
   width: 100%;
   z-index: 1000;
   background: #C5FAD5;
-  padding: 20px;
+  padding: 22px;
   text-align: center;
 }
 header nav a {
-  padding: 30px 90px;
+  padding: 25px 90px;
   font-size: 2rem;
   color: #CC313D;
   font-family: 'Abril Fatface', cursive;
-  border-radius: 5px;
   letter-spacing: 0.5px;
 }
 

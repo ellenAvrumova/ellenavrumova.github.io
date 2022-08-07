@@ -40,17 +40,17 @@ function App() {
       <Container>
           <header>
             <nav>
-                  <Row>
-                    <Col sm ={4}>
-                    <a href="#about" className="active">About me</a> 
-                    </Col>
-                    <Col sm={4}>
-                    <a href="#work">Work Experience</a>
-                    </Col>
-                    <Col sm={4}>
-                    <a href="#contact">Contacts</a>
-                    </Col>
-                  </Row>
+                <Row>
+                  <Col sm ={4}>
+                  <a href="#about" className="active">About me</a> 
+                  </Col>
+                  <Col sm={4}>
+                  <a href="#work">Work Experience</a>
+                  </Col>
+                  <Col sm={4}>
+                  <a href="#contact">Contacts</a>
+                  </Col>
+                </Row>
             </nav>
           </header>
       
@@ -61,10 +61,10 @@ function App() {
               <br />
               <br />
               <Row>
-                <Col xs ={{ span: 5 }}>
+                <Col sm ={{ span: 5 }}>
                   <img width="100%" src={myImage} className='img-thumbnail' alt="Me" style={{ maxWidth: '24rem', marginTop: 80, marginLeft: -40 }} />
                 </Col>
-                <Col xs={7}>
+                <Col>
                   <br />
                   <h2>ELLEN AVRUMOVA</h2>
                   <div id ="hello">
