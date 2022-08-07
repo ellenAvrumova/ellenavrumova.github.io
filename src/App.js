@@ -37,23 +37,21 @@ function App() {
 
   return (
     <div className="Page">
+      <Container>
           <header>
             <nav>
-              <Container>
-                <Row>
-                  <Col sm={4} md={4}>
+                  <Row>
+                    <Col sm ={4}>
                     <a href="#about" className="active">About me</a> 
-                  </Col>
-                  <Col sm={4} md={4}>
+                    </Col>
+                    <Col sm={4}>
                     <a href="#work">Work Experience</a>
-                  </Col>
-                  <Col sm={4} md={4}>
+                    </Col>
+                    <Col sm={4}>
                     <a href="#contact">Contacts</a>
-                  </Col>
-                </Row>
-              </Container>
+                    </Col>
+                  </Row>
             </nav>
-            
           </header>
       
 
@@ -63,10 +61,10 @@ function App() {
               <br />
               <br />
               <Row>
-                <Col sm = {{ span: 5 }}>
+                <Col xs ={{ span: 5 }}>
                   <img width="100%" src={myImage} className='img-thumbnail' alt="Me" style={{ maxWidth: '24rem', marginTop: 80, marginLeft: -40 }} />
                 </Col>
-                <Col>
+                <Col xs={7}>
                   <br />
                   <h2>ELLEN AVRUMOVA</h2>
                   <div id ="hello">
@@ -145,12 +143,17 @@ function App() {
                   <br />
                 </Col>
               </Row>
+              <Row>
+                <Col>
+                  <Cards />
+                </Col>
+              </Row>
             </Container>
-            <Cards />
             <br />
             <br />
           </div>
           </section>
+          </Container>
       </div>
   );
 }
