@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -80,6 +80,7 @@ function App() {
                   </div>
                 </Col>
               </Row>
+
               <Row>
                 <Col sm = {{ span: 1 }}>
                   <img width="100%" src={upperlineCode} className='upperlineCode' alt="Upperline Code" style={{ maxWidth: '24rem', marginLeft: 0, marginTop: 0 }} />
@@ -109,6 +110,7 @@ function App() {
                     </div>
                 </Col>
               </Row>
+
             </Container>
           </div>
         </section>
