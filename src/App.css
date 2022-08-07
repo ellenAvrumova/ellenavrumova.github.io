@@ -1,3 +1,7 @@
+:root {
+  background-color: #F7C5CC;
+}
+
 .Page {
   background-color: #F7C5CC;
   min-height: 100vh;
@@ -31,10 +35,9 @@ header {
   background: #C5FAD5;
   padding: 20px;
   text-align: center;
-  border-bottom: 1px solid black;
 }
 header nav a {
-  padding: 27px 90px;
+  padding: 27px 40px;
   font-size: 2rem;
   color: #CC313D;
   font-family: 'Abril Fatface', cursive;

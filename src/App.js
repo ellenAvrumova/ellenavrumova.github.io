@@ -37,13 +37,25 @@ function App() {
 
   return (
     <div className="Page">
-        <header>
-          <nav>
-            <a href="#about" className="active">About me</a>
-            <a href="#work">Work Experience</a>
-            <a href="#contact">Contacts</a>
-          </nav>
-        </header>
+          <header>
+            <nav>
+              <Container>
+                <Row>
+                  <Col sm={4} md={4}>
+                    <a href="#about" className="active">About me</a> 
+                  </Col>
+                  <Col sm={4} md={4}>
+                    <a href="#work">Work Experience</a>
+                  </Col>
+                  <Col sm={4} md={4}>
+                    <a href="#contact">Contacts</a>
+                  </Col>
+                </Row>
+              </Container>
+            </nav>
+            
+          </header>
+      
 
         <section id="about">
           <div className="container reveal">
