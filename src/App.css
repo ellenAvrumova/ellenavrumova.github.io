@@ -66,7 +66,7 @@ h2 {
 }
 
 #hello p{
-  margin-top: 10px;
+  margin-top: 20px;
   font-size: 20px;
   font-weight: bold;
   line-height: 10mm;
@@ -75,16 +75,18 @@ h2 {
 }
 
 #header {
-  font-size: 40px;
+  font-size: 50px;
   letter-spacing: 3px;
-  margin-left: -60px;
+  text-align: center;
   font-family: 'Abril Fatface', cursive;
 }
 
 #internName p{
+  margin-top: 20px;
   line-height: 7mm;
-  font-size: 40px;
-  font-family: 'Bebas Neue', cursive;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: 'Coda', cursive;
 }
 
 #list p, ul{
@@ -97,6 +99,13 @@ h2 {
 #list ul {
   padding-left: 50px;
 }
+
+#description p {
+  font-size: 20px;
+  font-family: 'Lexend', sans-serif;
+}
+
+
 
 @keyframes typing {
   from { width: 0 }

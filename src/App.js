@@ -5,6 +5,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import myImage from './myImage.jpg'
 import amex from './American-Express-logo.png'
+import upperlineCode from './UpperlineCodeLogo.jpeg'
 import { Socials } from './Components/Socials.js'
 import { Cards } from './Components/Card.js'
 
@@ -73,31 +74,39 @@ function App() {
             <br />
             <Container>
               <Row>
-                <Col sm = {{ offset: 4 }}>
+                <Col>
                   <div id="header">
                     <p>WORK EXPERIENCE</p>
                   </div>
                 </Col>
               </Row>
               <Row>
-                {/* Insert Col here when adding new job */}
+                <Col sm = {{ span: 1 }}>
+                  <img width="100%" src={upperlineCode} className='upperlineCode' alt="Upperline Code" style={{ maxWidth: '24rem', marginLeft: 0, marginTop: 0 }} />
+                </Col>
+                <Col>
+                  <div id="internName">
+                    <p><u>Teaching Assistant</u></p>
+                  </div>
+                  <div id="description">
+                      <p>I was a TA for an HTML/CSS/JavaScript class. I assisted
+                        10th-grade students in making their own websites by debugging and answering their questions.
+                        I collaborated with teachers to create a teaching plan and seating chart everyday.</p>
+                  </div>
+                </Col>
+
+                <Col sm = {{ span: 1 }}>
+                  <img width="100%" src={amex} className='amex' alt="amex" style={{ maxWidth: '24rem', marginLeft: 0, marginTop: 0 }} />
+                </Col>
                 <Col>
                   <div id="internName">
                     <p><u>Software Engineer Intern</u></p>
                   </div>
-                    <div id="list">
-                      <p>Used:</p>
-                      <ul>
-                        <li>Couchbase</li>
-                        <li>NoSQL</li>
-                        <li>JavaScript</li>
-                        <li>Postman</li>
-                        <li>React.js</li>
-                      </ul>
+                    <div id="description">
+                      <p>I interned at AMEX and learned how to create Couchbase queries and APIs using node.js.
+                        I also learned how to successfully render data onto a website.
+                        I developed skills for coding in NoSQL, JavaScipt, React.js, and a bit of HTML.</p>
                     </div>
-                </Col>
-                <Col sm = {{ span: 3 }}>
-                  <img width="100%" src={amex} className='amex' alt="amex" style={{ maxWidth: '24rem', marginLeft: -380, marginTop: 40 }} />
                 </Col>
               </Row>
             </Container>
@@ -110,7 +119,7 @@ function App() {
             <br />
             <Container>
               <Row>
-                <Col sm = {{ offset: 5 }}>
+                <Col>
                 <div id="header">
                   <p>CONTACTS</p>
                 </div>
