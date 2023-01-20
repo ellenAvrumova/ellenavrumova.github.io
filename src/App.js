@@ -68,7 +68,7 @@ function App() {
                   <br />
                   <h2>ELLEN AVRUMOVA</h2>
                   <div id ="hello">
-                    <p>Hello! I'm a freshman at Hunter College. I'm part of the Daedalus Honors Program and have been coding since 10th grade.</p>
+                    <p>Hello! I'm a student at Hunter College. I'm part of the Daedalus Honors Program and have been coding since 10th grade.</p>
                     <p><u>Currently I am: </u><br />Exploring career paths in technology!</p>
                     <p><u>My Current Goal: </u><br />Gain experience through internships!</p>
                   </div>
