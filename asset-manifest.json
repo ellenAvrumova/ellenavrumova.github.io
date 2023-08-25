@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.4457c177.css",
-    "main.js": "/static/js/main.710edd6e.js",
+    "main.js": "/static/js/main.be44ef82.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/Ellen_Avrumova.jpeg": "/static/media/Ellen_Avrumova.1e66d284d0fe789773c2.jpeg",
     "static/media/American-Express-logo.png": "/static/media/American-Express-logo.e0d8bb7d623b9902f110.png",
     "index.html": "/index.html",
     "main.4457c177.css.map": "/static/css/main.4457c177.css.map",
-    "main.710edd6e.js.map": "/static/js/main.710edd6e.js.map",
+    "main.be44ef82.js.map": "/static/js/main.be44ef82.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4457c177.css",
-    "static/js/main.710edd6e.js"
+    "static/js/main.be44ef82.js"
   ]
 }
