@@ -101,7 +101,7 @@ function App() {
                     <p><u>Product Manager Intern</u></p>
                   </div>
                   <div id="description">
-                      <p>I managed a team of 6 software engineers and 5 designers to create a new product called "Challenges." I led daily morning stand ups where
+                      <p>I managed a team of 6 software engineers and 5 designers to create a new product called "Challenges." I led daily morning stand-ups where
                         I created weekly tickets on Asana and organized sub-teams to work on these tickets. I assisted the CS Team by having my own engineering
                         tickets and coding in PHP, JS, and SQL. I assisted the Design Team by using previously received market research to create new features
                         that need to be designed.
