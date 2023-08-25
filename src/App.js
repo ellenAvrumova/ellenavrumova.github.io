@@ -3,9 +3,10 @@ import './App.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import myImage from './myImage.jpg'
-import amex from './American-Express-logo.png'
-import upperlineCode from './UpperlineCodeLogo.jpeg'
+import myImage from './Ellen_Avrumova.jpeg'
+import amex from './Logos/American-Express-logo.png'
+import upperlineCode from './Logos/UpperlineCodeLogo.jpeg'
+import unadat from './Logos/Unadat.jpeg'
 import { Socials } from './Components/Socials.js'
 import { Cards } from './Components/Card.js'
 
@@ -62,7 +63,7 @@ function App() {
               <br />
               <Row>
                 <Col sm ={{ span: 5 }}>
-                  <img width="100%" src={myImage} className='img-thumbnail' alt="Me" style={{ maxWidth: '24rem', marginTop: 80, marginLeft: -40 }} />
+                  <img width="100%" src={myImage} className='img-thumbnail' alt="Me" style={{ maxWidth: '24rem', marginLeft: -40 }} />
                 </Col>
                 <Col>
                   <br />
@@ -87,6 +88,24 @@ function App() {
                 <Col>
                   <div id="header">
                     <p>WORK EXPERIENCE</p>
+                  </div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col sm = {{span: 1}}>
+                  <img width="100%" src={unadat} className='unadat' alt="Unadat" style={{ maxWidth: '24rem', marginLeft: 0, marginTop: 0 }} />
+                </Col>
+                <Col>
+                  <div id="internName">
+                    <p><u>Product Manager Intern</u></p>
+                  </div>
+                  <div id="description">
+                      <p>I managed a team of 6 software engineers and 5 designers to create a new product called "Challenges." I led daily morning stand ups where
+                        I created weekly tickets on Asana and organized sub-teams to work on these tickets. I assisted the CS Team by having my own engineering
+                        tickets and coding in PHP, JS, and SQL. I assisted the Design Team by using previously received market research to create new features
+                        that need to be designed.
+                      </p>
                   </div>
                 </Col>
               </Row>
