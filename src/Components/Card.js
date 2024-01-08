@@ -15,7 +15,7 @@ export class Cards extends Component {
                                 <Card.Header>Resume</Card.Header>
                                 <Card.Body>
                                   <Card.Title>Click below if you'd like to learn more details about me!</Card.Title>
-                                  <Card.Text><a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1uE7UJFSGK4_j8D-1nKPgfzgLQzyTsAWK/view?usp=sharing" title="Resume">Please click me</a></Card.Text>
+                                  <Card.Text><a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/18mA78XSODA0vlPLz2bNoC67HvjR5xazG/view?usp=sharing" title="Resume">Please click me</a></Card.Text>
                                 </Card.Body>
                             </Card>
                         </Col>
