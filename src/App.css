@@ -53,25 +53,27 @@ header nav a.active {
 }
 
 h2 {
-  font-size: 40px;
-  font-family: 'Press Start 2P', cursive;
-  border-right: .15em solid black;
-  margin-left: -50px;
-
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid black; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  animation: 
-    typing 3.5s steps(40, end),
-    blink-caret .75s step-end infinite;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #hello p{
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 22px;
+  font-weight: 450;
   line-height: 10mm;
-  margin-left: -50px;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Moderustic", sans-serif;
+}
+
+.title {
+  font-size: 22px;
+  font-family: "Moderustic", sans-serif;
+}
+
+.skill {
+  font-size: 22px;
+  font-family: "Moderustic", sans-serif;
+  font-weight: 450;
+  margin-left: 30px;
 }
 
 #header {
@@ -103,17 +105,4 @@ h2 {
 #description p {
   font-size: 20px;
   font-family: 'Lexend', sans-serif;
-}
-
-
-
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: black; }
 }
