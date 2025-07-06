@@ -69,7 +69,7 @@ function App() {
                   <br />
                   <h2>Hello World! I'm Ellen Avrumova :)</h2>
                   <div id="hello">
-                    <p>I'm a student at Hunter College. I'm part of the Daedalus Honors Program and have been coding since 10th grade.</p>
+                    <p>I'm a Computer Science graduate from Hunter College, a Daedalus Honors Program alumna, and have been coding since the 10th grade!</p>
                     <p><u>Currently I am: </u><br />Looking for a full-time SWE or PM position in NYC!</p>
                     {/* <p><u>My Current Goal: </u><br />Gain experience through internships!</p> */}
                     <p><u>My Skills: </u></p>

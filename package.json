@@ -13,7 +13,7 @@
     "react-dom": "^18.1.0",
     "react-native-web": "^0.17.7",
     "react-scripts": "5.0.1",
-    "react-social-icons": "^5.13.0",
+    "react-social-icons": "^6.24.0",
     "reactstrap": "^9.0.3",
     "web-vitals": "^2.1.4"
   },
